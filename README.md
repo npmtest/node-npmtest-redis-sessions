@@ -1,6 +1,6 @@
 # npmtest-redis-sessions
 
-#### test coverage for  [redis-sessions (v1.2.0)](https://github.com/smrchy/redis-sessions#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-redis-sessions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redis-sessions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redis-sessions.svg)](https://travis-ci.org/npmtest/node-npmtest-redis-sessions)
+#### basic test coverage for  [redis-sessions (v1.2.0)](https://github.com/smrchy/redis-sessions#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-redis-sessions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redis-sessions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redis-sessions.svg)](https://travis-ci.org/npmtest/node-npmtest-redis-sessions)
 
 #### An advanced session store for Redis
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redis-sessions/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redis-sessions/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redis-sessions/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redis-sessions/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redis-sessions/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redis-sessions/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redis-sessions/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redis-sessions/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redis-sessions/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redis-sessions/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redis-sessions/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redis-sessions/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "mocha ./test/test.js"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
